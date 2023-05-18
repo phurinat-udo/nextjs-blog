@@ -1,7 +1,10 @@
 ---
-title: 'Two Forms of Pre-rendering'
-date: '2020-01-01'
+title: 'About This Project'
+date: '2023-05-17'
 ---
+
+The owner of this website aimed to create 
+This website is the part of Application Developments Course in Innovative Physics Program, Faculty of Science, Mahidol University.
 
 Next.js has two forms of pre-rendering: **Static Generation** and **Server-side Rendering**. The difference is in **when** it generates the HTML for a page.
 
