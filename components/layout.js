@@ -3,9 +3,10 @@ import Image from 'next/image'
 import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
+import '../styles/global.css';
 
 const name = 'Phurinat Udomsopagit'
-export const siteTitle = 'App Develope (SCIP504) - Project'
+export const siteTitle = 'App Develop (SCIP504) - Project'
 
 export default function Layout({ children, home }) {
   return (
