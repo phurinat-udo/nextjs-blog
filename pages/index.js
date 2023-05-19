@@ -9,7 +9,7 @@ import styles from '../styles/Home.module.css';
 
 export default function Home( {allPostsData} ) {
   return (
-    <Layout home>
+    <Layout home className={styles.container}>
       <Head>
         <title>{siteTitle}</title>
       </Head>
