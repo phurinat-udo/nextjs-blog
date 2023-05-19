@@ -22,8 +22,8 @@ export default function Home( {allPostsData} ) {
       </section>
 
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-      <h2 className={utilStyles.headingLg}>Blog</h2>
-        <div className={styles.grid}>
+      <div className={styles.grid}>
+        <h2 className={utilStyles.headingLg}>Blog</h2>
           {allPostsData.map(({ id, date, title }) => (
             <a className={styles.card} key={id}>
               <Link href={`/posts/${id}`}>{title} &rarr;</Link>
@@ -37,7 +37,7 @@ export default function Home( {allPostsData} ) {
               <h3> My Github Profile &rarr;</h3>
               <p>Discover my old project code</p>
             </a>
-        </div>
+      </div>
       </section>
     </Layout>
   )
