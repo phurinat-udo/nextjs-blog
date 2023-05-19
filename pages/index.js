@@ -21,9 +21,9 @@ export default function Home( {allPostsData} ) {
         </p>
       </section>
 
-      <div className={styles.grid}>
-        <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>Blog</h2>
+      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
+      <h2 className={utilStyles.headingLg}>Blog</h2>
+        <div className={styles.grid}>
           {allPostsData.map(({ id, date, title }) => (
             <a className={styles.card} key={id}>
               <Link href={`/posts/${id}`}>{title} &rarr;</Link>
@@ -33,12 +33,16 @@ export default function Home( {allPostsData} ) {
               </small>
             </a>
           ))}
-        </section>
-        <a href='https://github.com/phurinat-udo' className={styles.card}>
-          <h3> My Github Profile &rarr;</h3>
-          <p>Discover my old project code</p>
-        </a>
-      </div>
+            <a href='https://github.com/phurinat-udo' className={styles.card}>
+              <h3> My Github Profile &rarr;</h3>
+              <p>Discover my old project code</p>
+            </a>
+            
+            <a href='https://www.tiktok.com/t/ZSLerUgX3/?t=1' className={styles.card}>
+              Thank you for your attention.
+            </a>
+        </div>
+      </section>
     </Layout>
   )
 }
