@@ -16,8 +16,8 @@ export default function Home( {allPostsData} ) {
       <section className={utilStyles.headingMd}>
         <p> Graduate Student in Innovative Physics, <br/> Faculty of Science, Mahidol University </p>
         <p>
-          (This is the website project for Application Development Course (SCIP514) - you’ll be building a site like this in{' '}
-          <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
+          Please click the link below to exploe - you’ll be building a site like this in{' '}
+          <a href="https://nextjs.org/learn">our Next.js tutorial</a>.
         </p>
       </section>
 
@@ -33,6 +33,10 @@ export default function Home( {allPostsData} ) {
               </small>
             </a>
           ))}
+            <a href='https://github.com/phurinat-udo' className={styles.card}>
+              <h3> My Github Profile &rarr;</h3>
+              <p>Discover my old project code</p>
+            </a>
         </div>
       </section>
     </Layout>
