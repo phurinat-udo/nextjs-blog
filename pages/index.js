@@ -16,8 +16,7 @@ export default function Home( {allPostsData} ) {
       <section className={utilStyles.headingMd}>
         <p> Graduate Student in Innovative Physics, <br/> Faculty of Science, Mahidol University </p>
         <p>
-          Please click the link below to exploe - you’ll be building a site like this in{' '}
-          <a href="https://nextjs.org/learn">our Next.js tutorial</a>.
+          Please click the link below to explore.
         </p>
       </section>
 
