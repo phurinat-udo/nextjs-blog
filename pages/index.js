@@ -33,13 +33,19 @@ export default function Home( {allPostsData} ) {
               </small>
             </a>
           ))}
-            <a href='https://github.com/phurinat-udo' className={styles.card}>
-              <h3> My Github Profile &rarr;</h3>
+      <h2 className={utilStyles.headingLg}>External Page</h2>
+            <a className={styles.card}>
+              <Link href='https://github.com/phurinat-udo'> 
+                My Github Profile &rarr;
+              </Link>
               <p>Discover my old project code</p>
             </a>
-            
-            <a href='https://www.tiktok.com/t/ZSLerUgX3/?t=1' className={styles.card}>
-              Thank you for your attention.
+
+            <a className={styles.card}>
+              <Link href='https://www.tiktok.com/t/ZSLerUgX3/?t=1'>
+                Thank you for your attention. &rarr;
+              </Link>
+              <p>Let's see happy cat</p>
             </a>
         </div>
       </section>
